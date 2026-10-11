@@ -1,0 +1,42 @@
+# Test Case TC-05: Loan Amount Above ₹75 Lakh
+
+## Objective
+Verify that the agent offers the maximum allowed amount and respects the customer's decision.
+
+## Simulated Conversation
+
+Agent: Approximately how much would you like to borrow against your property?
+
+Customer: I need ₹90 lakh.
+
+Agent: The maximum amount under this offer is ₹75 lakh. Would you like to proceed with the maximum available amount?
+
+### Test A — Customer Accepts
+
+Customer: Yes, ₹75 lakh is fine.
+
+Expected result: Record the revised amount as ₹75,00,000 and continue with the remaining eligibility questions.
+
+### Test B — Customer Declines
+
+Customer: No, ₹75 lakh is not enough.
+
+Expected result: Thank the customer and end the call. Do not mark them as preliminarily qualified.
+
+## Actual Result
+Test A: [Record actual result.]
+
+Test B: [Record actual result.]
+
+## Status
+Test A: [PASS / FAIL / NOT RUN]
+
+Test B: [PASS / FAIL / NOT RUN]
+
+## Recording Links
+Test A: [Insert actual URL.]
+
+Test B: [Insert actual URL.]
+
+## Notes
+[Record any incorrect amount handling or repeated questions.]

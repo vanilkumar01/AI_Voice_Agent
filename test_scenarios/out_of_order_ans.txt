@@ -1,0 +1,40 @@
+# Test Case TC-07: Out-of-Order Answers
+
+## Objective
+Verify that the agent remembers answers provided before their corresponding questions.
+
+## Simulated Conversation
+
+Agent: Could you tell me what type of property you own?
+
+Customer: It's a residential house. I am the sole owner, and I have the original documents. I need ₹25 lakh. I'm salaried and receive my income through my bank account. The property is worth around ₹60 lakh, and I prefer a 10-year tenure.
+
+## Expected Result
+
+The agent identifies and records all seven data points:
+1. Property type: Residential.
+2. Ownership: Sole.
+3. Original documents: Available.
+4. Loan amount: ₹25,00,000.
+5. Occupation/income mode: Salaried, bank income.
+6. Market value: ₹60,00,000.
+7. Tenure: 10 years.
+
+The agent must not repeat questions that have already been answered clearly.
+
+If all answers are valid, the agent may proceed to the eligibility evaluation stage. It must not ask redundant questions or qualify the customer before evaluating every condition.
+
+## Actual Result
+[Record what actually happened.]
+
+## Status
+[PASS / FAIL / NOT RUN]
+
+## Recording Link
+[Insert actual recording URL.]
+
+## Transcript
+[Insert transcript filename or link.]
+
+## Notes
+[Record any missed, duplicated, or incorrectly extracted answers.]

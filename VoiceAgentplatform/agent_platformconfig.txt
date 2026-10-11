@@ -1,0 +1,71 @@
+# Voice Agent Platform and Configuration
+
+## Project
+Home Credit — Loan Against Property Qualification Voice Agent
+
+## Platform
+Retell AI — Conversation Flow Agent
+
+## Agent Name
+Kumar
+
+## Agent Purpose
+Conduct authorized outbound customer calls, explain the LAP offer of up to ₹75 lakh, collect eligibility information, and route the customer to the appropriate outcome.
+
+## Configuration Checklist
+
+- [ ] Create a Conversation Flow Agent.
+- [ ] Configure the agent's name and supported dynamic variables.
+- [ ] Select a suitable Indian English voice, or a Hindi-capable voice when required.
+- [ ] Configure the Global Prompt with the final system instructions.
+- [ ] Configure the Welcome Node.
+- [ ] Configure the Present LAP Offer node.
+- [ ] Configure the Collect Eligibility Details node.
+- [ ] Add transitions for loan-transfer intent, disqualification, amount confirmation, continued qualification, and eligibility evaluation.
+- [ ] Configure the Logic Split and all destination nodes.
+- [ ] Configure qualified, disqualified, busy-customer, and loan-transfer closing messages.
+- [ ] Verify that each closing message leads to the correct ending.
+- [ ] Test the agent using authorized test calls.
+- [ ] Verify actual call recordings and transcripts.
+- [ ] Publish only after testing the workflow.
+
+## Required Conversation Stages
+
+1. Identity verification
+2. Offer presentation
+3. Customer consent
+4. Seven-point eligibility collection
+5. Eligibility and exception evaluation
+6. Appropriate closing and call termination
+
+## Voice and Language
+
+Choose a clear, professional voice appropriate for Indian customers. Verify Indian English pronunciation of rupee amounts, customer names, and financial terms.
+
+Configure Hindi only if the selected voice and agent setup support it.
+
+## Testing Requirements
+
+Test eligible and ineligible customers, busy customers, incorrect numbers, declined offers, loan-transfer requests, loan amounts exceeding ₹75 lakh, invalid tenure, incomplete answers, and out-of-order responses.
+
+## Recording and Privacy
+
+Use authorized test calls. Follow the platform's applicable consent and recording requirements. Share recordings only through approved links with suitable access permissions.
+
+## Known Limitations
+
+The exact behavior depends on the platform's supported transition conditions, memory, extraction, call-ending, and recording features.
+
+Do not claim a successful transfer, scheduled callback, or recorded outcome unless the platform actually performs or records it.
+
+## Submission Details
+
+Platform account or agent URL: [Insert actual URL]
+
+Agent ID: [Insert actual ID]
+
+Published agent URL: [Insert if available]
+
+Date tested: [Insert date]
+
+Status: [In development / Testing / Published]

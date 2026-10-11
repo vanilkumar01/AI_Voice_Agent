@@ -1,0 +1,61 @@
+# Home Credit LAP Voice Agent — Call Transcripts
+
+## Purpose
+Store the actual spoken conversation or platform-generated transcript for every test call.
+
+Preserve the customer's actual answers. Do not replace the actual transcript with an expected conversation.
+
+## Transcript Template
+
+Test Case ID: [TC-01 to TC-07]
+Scenario: [Scenario name]
+Call Date/Time: [Actual date/time]
+Recording URL: [Actual recording URL]
+Transcript Source: [Platform-generated / Manually transcribed]
+
+### Conversation
+
+Agent: [Actual agent statement]
+
+Customer: [Actual customer statement]
+
+Agent: [Actual agent statement]
+
+Customer: [Actual customer statement]
+
+[Continue until the call ends.]
+
+### Extracted Eligibility Data
+
+Property type: [Actual value]
+Ownership status: [Actual value]
+Original documents available: [Yes / No / Unclear]
+Requested loan amount: [Actual amount]
+Occupation: [Salaried / Self-employed / Other / Unclear]
+Income mode: [Bank / Cash / Unclear]
+Property market value: [Actual estimate / Not provided]
+Requested tenure: [Actual years / Not provided]
+
+### Final Outcome
+
+Expected outcome: [Expected outcome from the test case]
+Actual outcome: [Actual observed outcome]
+Disqualification reason: [Actual reason, if applicable]
+Callback request: [Actual requested time, if applicable]
+Agent followed expected flow: [Yes / No]
+Notes: [Observed mistakes or improvements]
+
+---
+
+## Transcript Index
+
+TC-01: Eligible customer — [Insert transcript filename or section]
+TC-02: Agricultural property — [Insert transcript filename or section]
+TC-03: Cash income — [Insert transcript filename or section]
+TC-04: Existing loan / EMI reduction — [Insert transcript filename or section]
+TC-05A: Amount above ₹75 lakh, accepted — [Insert transcript filename or section]
+TC-05B: Amount above ₹75 lakh, declined — [Insert transcript filename or section]
+TC-06: Busy customer — [Insert transcript filename or section]
+TC-07: Out-of-order answers — [Insert transcript filename or section]
+
+Note: A transcript may be platform-generated or manually transcribed from the recording. Label the source accurately and do not invent statements.

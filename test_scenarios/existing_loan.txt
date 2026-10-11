@@ -1,0 +1,29 @@
+# Test Case TC-04: Existing Loan / EMI Reduction
+
+## Objective
+Verify that the agent recognizes a loan-transfer requirement and stops fresh-loan qualification.
+
+## Simulated Conversation
+
+Customer: I already have a loan against my property. I want to transfer it and reduce my EMI.
+
+## Expected Result
+
+The agent acknowledges the request, explains that a loan-transfer specialist will contact the customer, and ends the current call.
+
+The agent must not continue asking fresh-loan eligibility questions.
+
+## Actual Result
+[Record what actually happened.]
+
+## Status
+[PASS / FAIL / NOT RUN]
+
+## Recording Link
+[Insert actual recording URL.]
+
+## Transcript
+[Insert transcript filename or link.]
+
+## Notes
+[Verify that the correct specialist path is used.]

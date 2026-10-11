@@ -1,0 +1,31 @@
+# Test Case TC-03: Cash Income
+
+## Objective
+Verify immediate disqualification when the customer confirms income received in cash.
+
+## Simulated Conversation
+
+Agent: Are you salaried or self-employed, and do you receive your income through a bank or in cash?
+
+Customer: I run my own business and receive my income in cash.
+
+## Expected Result
+
+The agent recognizes that self-employment is acceptable but cash income does not meet the eligibility criteria.
+
+It politely explains the bank-income requirement and ends the call without continuing qualification.
+
+## Actual Result
+[Record what actually happened.]
+
+## Status
+[PASS / FAIL / NOT RUN]
+
+## Recording Link
+[Insert actual recording URL.]
+
+## Transcript
+[Insert transcript filename or link.]
+
+## Notes
+[Check whether the agent distinguishes occupation from income mode.]

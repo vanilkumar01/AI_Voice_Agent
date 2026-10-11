@@ -1,0 +1,37 @@
+# Test Case TC-06: Busy Customer
+
+## Objective
+Verify that the agent offers a callback instead of continuing qualification.
+
+## Simulated Conversation
+
+Agent: Good morning! My name is Kumar, and I'm calling from Home Credit. May I speak with the intended customer?
+
+Customer: Yes, that's me, but I'm driving right now. Can you call tomorrow afternoon?
+
+Agent: Of course. What time tomorrow afternoon would be convenient for you?
+
+Customer: Around 3 PM.
+
+Agent: Thank you. I've recorded your preferred callback time. Have a good day.
+
+## Expected Result
+
+The agent acknowledges the customer's availability, captures the requested callback time if supported, and ends the current call without continuing eligibility questions.
+
+The agent must not claim a callback has been scheduled unless the platform or connected scheduling system confirms it. Otherwise, record the requested callback time for follow-up.
+
+## Actual Result
+[Record what actually happened.]
+
+## Status
+[PASS / FAIL / NOT RUN]
+
+## Recording Link
+[Insert actual recording URL.]
+
+## Transcript
+[Insert transcript filename or link.]
+
+## Notes
+[Verify callback capture and end-of-call behavior.]

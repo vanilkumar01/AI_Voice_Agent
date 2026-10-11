@@ -1,0 +1,31 @@
+# Test Case TC-02: Agricultural Property
+
+## Objective
+Verify immediate disqualification when the customer confirms agricultural property.
+
+## Simulated Conversation
+
+Agent: Could you tell me what type of property you own?
+
+Customer: I own agricultural land.
+
+## Expected Result
+
+The agent identifies agricultural property as ineligible, politely explains that it does not meet the criteria for this particular offer, and ends the call.
+
+The agent must not continue fresh-loan eligibility questions or mark the customer as qualified.
+
+## Actual Result
+[Record what actually happened.]
+
+## Status
+[PASS / FAIL / NOT RUN]
+
+## Recording Link
+[Insert actual recording URL.]
+
+## Transcript
+[Insert transcript filename or link.]
+
+## Notes
+[Record whether the agent stopped immediately.]

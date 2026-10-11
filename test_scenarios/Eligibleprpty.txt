@@ -1,0 +1,38 @@
+# Test Case TC-01: Eligible Customer
+
+## Objective
+Verify that a customer meeting every stated eligibility condition reaches preliminary qualification.
+
+## Simulated Customer Answers
+
+- Identity: Confirms they are the intended customer.
+- Consent: Agrees to continue.
+- Property type: Residential house.
+- Ownership: Sole ownership.
+- Original documents: Available.
+- Requested loan amount: ₹40,00,000.
+- Occupation: Salaried.
+- Income mode: Received through a bank.
+- Property market value: ₹80,00,000.
+- Repayment tenure: 10 years.
+
+## Expected Result
+
+The agent collects and validates all seven data points, records the answers, and reaches the qualified closing only after all required conditions are satisfied.
+
+The agent informs the customer that a senior loan expert will call to discuss exact interest rates and next steps.
+
+## Actual Result
+[Record what actually happened.]
+
+## Status
+[PASS / FAIL / NOT RUN]
+
+## Recording Link
+[Insert actual recording URL.]
+
+## Transcript
+[Insert transcript filename or link.]
+
+## Notes
+[Record any errors or improvements.]
